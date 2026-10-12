@@ -30,7 +30,7 @@ jobs:
         run: pwsh TestForge.Tests/bin/Debug/net10.0/playwright.ps1 install --with-deps chromium
 
       - name: Run tests
-        run: dotnet test TestForge.sln --no-build --settings playwright.runsettings
+        run: dotnet test TestForge.slnx --no-build --settings playwright.runsettings
 
       - name: Upload Playwright diagnostics
         if: failure()
