@@ -1,0 +1,29 @@
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Test results and generated diagnostics
+TestResults/
+**/TestResults/
+*.trx
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
